@@ -144,14 +144,10 @@ img {
 .cd-hero-slider li:first-of-type {
 	<video autoplay loop poster="polina.jpg" id="bgvid"> 
             <source src="http://23632355.s61i.faiusr.com/58/AD0I47OiCxA6GAAgjaia9QUo_pTenQM.mp4" type="video/mp4"></video>
-	video#bgvid { 
-  position: fixed; right: 0; bottom: 0; 
-  min-width: 100%; min-height: 100%; 
-  width: auto; 
- height: auto; 
- z-index: -100; 
-  background: url(polina.jpg) no-repeat; 
-  background-size: cover; };
+	video#bgvideo {
+    width: auto; height: auto; z-index: -100;
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;;
 }
 
 .cd-hero-slider li:nth-of-type(2) {
