@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		* {
+			background-color: darkorange;
+		}
+		
+		.display-btn {
+		    color: white;
+		    cursor: pointer;
+				}
+		
+		.display-btn:hover {
+		   color: #00CDF8;
+		}
+		
+		input[type='checkbox']{
+		    display: none;
+		}
+		
+		#display:checked ~ .container {
+		    display: block;
+		}
+		
+		.container {
+		    
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%,-50%);
+		    background: white;
+		    width: 350px;
+		    height: 400px;
+		    padding: 30px;
+		    position: absolute;
+		    border-radius: 15px;
+			text-align: center;
+		}
+		
+		.close-btn {
+		    right: 10%;
+		    position: absolute;
+		    color: black;
+		    font-size: 30px;
+		    cursor: pointer;
+		    font-weight: bold;
+		    background: none;
+		    transition: 0.2s;
+			
+		}
+		
+		.close-btn:hover {
+		    color: red;
+		}
+		
+		h2 {
+		    background: none;
+		    text-align: center;
+		    margin: 20px 0;
+		    color: black;
+		
+		}
+		
+		form {
+		    background: none;
+		}
+		
+		label {
+		    background: none;
+		    color: black;
+		    font-weight: bold;
+		    font-size: 20px;
+		}
+		
+		input {
+		    background: none;
+		    display: block;
+		    width: 90%;
+		    font-size: 20px;
+		    border: none;
+		    outline: none;
+		    border-bottom: 2px solid black;
+		    padding: 10px;
+		}
+		
+		button {
+		    display: block;
+		    margin-top: 20px;
+		    width: 95%;
+		    color: white;
+		    cursor: pointer;
+		    font-weight: bold;
+		    font-size: 20px;
+		    border-radius: 10px;
+		    background: black;
+		    border: none;
+		    outline: none;
+		    padding: 10px;
+		    transition: 0.3s;
+		}
+		
+		button:hover {
+		    background: lightseagreen;
+		}
+		
+		form a {
+		    font-weight: bold;
+		    color: lightseagreen;
+		    background: none;
+		    text-decoration: none;
+		    transition: 0.2s;
+		}
+		
+		form a:hover {
+		    color: rgb(13, 84, 81);
+		}
+		
+		.forgot {
+		    background: none;
+		    text-align: center;
+		    margin: 40px 5px;
+		    color: black;
+		}
+		.xhx {
+			text-decoration: none;
+			background-color: white;
+			color: black;
+		}
+	</style>
+	<body>
+		
+		<div class="header">
+		
+		    <input type="checkbox" id="display">
+		    
+		
+		    <div class="container">
+		   <label  class="close-btn"> <a class="xhx" href="index.html">&times;</a></label>
+		<img src="wraith.png">
+		        <h2>无人所知的Windows12</h2>
+				
+		        <form action="#">
+		            <label>一名计算机爱好者</label><br/>
+		            
+		
+		            <label>喜欢开发功能强大，优质，无广告，免费，开源的软件</label><br/><br/>
+					<label>对UI制作不怎么熟练，所以部分软件窗口会比较丑或者直接用的Windows的窗口</label><br/>
+					
+		            
+		
+		            
+		        </form>
+		    </div>
+	</body>
+</html>
